@@ -11,6 +11,7 @@
 #include <string>
 #include <vector>
 #include <iostream>
+#include <sstream>
 #include <ext/stdio_filebuf.h>
 #include <cstdio>
 #include <system_error>
