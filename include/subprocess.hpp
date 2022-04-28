@@ -22,6 +22,14 @@
 namespace subprocess
 {
 
+inline std::string read_all(const std::ios& ios)
+{
+    std::ostringstream ss;
+    ss << ios.rdbuf();
+    return ss.str();
+}
+
+
 class popen
 {   
 public:
